@@ -1,0 +1,350 @@
+body{
+	background-color: 	gray;
+	text-align: 		center;
+}
+
+header{
+	margin-bottom: 0px;
+	background-color: white;
+}
+
+nav{
+	margin-bottom: 0px;
+	background-color: white;
+    color: crimson;
+}
+
+header img{
+	
+	display: block;
+	height: 150px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+header form{
+		margin-bottom: 0;
+		margin-top: 10px;
+}
+
+.button, .buttonish{
+	margin-top: 8px;
+	margin-left: 5px;
+	margin-bottom: 3px;
+}
+
+label{
+	text-align: right;
+}
+
+
+
+
+.fullheight{
+	margin-bottom: 0px;
+}
+
+#pagetop{
+	margin-bottom: 0px;
+}
+
+.micro{
+	display:    inline;
+}
+
+#container{
+	margin-left:		auto;
+	margin-right:		auto;
+	text-align: 		center;
+	width:				95%;
+	min-height:			800px;
+	background-color:	white;
+	color:              black;
+	height: 			100%;
+	/*border:				1px solid yellow;  */
+}
+
+#heading{
+    background-image: url(header.jpg);
+    background-size: cover;
+	height: 230px;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#user{
+	/*height:				25px;*/
+	width:				9.0%;
+	background-color:	silver;
+	float:				right;
+	text-align:			right;
+	position:			relative;
+	padding-right: 		10px;
+
+}
+
+
+#menu{
+	/*height:				22px;*/
+	width:				90%;
+	background-color:	white;
+	float:				left;
+	text-align:			left;
+	position:			relative;
+}
+
+#menu ul{
+	padding:			0;
+	margin:				0;
+	list-style-position: inside;
+	list-style: 			none;
+}
+
+#menu ul li{
+	display:			inline;
+}
+
+#menu ul li a{
+	text-decoration:	none;
+}
+
+#menu a:link, #menu a:visited{
+	padding: 4,2,4,2;
+	height: 38px;
+	border-radius: 4px;
+	padding: 0 30px;
+	margin-top: 2px;
+	background-color: darkcyan;
+	color: white;
+	border: 1px solid black;
+}
+
+#menu a:hover{
+	padding: 4,2,4,2;
+	margin-top: 2px;
+	background-color: white;
+	color: darkcyan;
+	border: 1px solid black;
+}
+
+#menu::after{
+	clear: both;
+	content: "";
+	display: table;
+}
+
+
+#read{
+	width: 50%;
+	float: left;
+}
+
+#extramenu{
+	width: 49%;
+	margin-left: 3px;
+	float: left;
+}
+
+#extras{
+	width: 49%;
+	margin-left: 3px;
+	margin-top: 3px;
+	float: left;
+}
+
+
+#topbar{
+	width: 100%;
+
+}
+
+
+#ref{
+	width: 100%;
+}
+
+
+#search{
+	width: 50%;
+	border: 1px solid red;
+	float: left;
+}
+
+#utiltop{
+	width: 49%;
+	border: 1px solid red;
+	float: left;
+	font-size: 1.3em;
+}
+
+#bible{
+	/*width: 50%;
+	float: left;
+	clear: left; */
+	border: 1px solid pink;
+
+}
+
+#content{
+	width: 100%;
+	clear: left;
+	float: left;
+	display: block;
+	/*border: 1px solid red;*/
+}
+
+#leftpage{
+		width: 49%;
+		margin-left: .5%;
+
+}
+
+#rightpage{
+		margin-left: 1%;
+		margin-right: 0;
+		width: 49%;
+}
+
+.mainForm{
+}
+
+
+
+.titleRow{
+	background-color: white;
+	color: crimson;
+}
+
+.evenrows{
+	background-color: white;
+}
+
+.oddrows{
+	background-color: silver;
+}
+
+.mainform{
+	background-color: silver;
+}
+
+.selectedverse{
+	background-color: white;
+}
+
+
+
+table{
+	text-align:	center;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: none;
+	background-color: white;
+	min-width: 40%;
+}
+
+table th
+{
+	margin: 0;
+	padding: 10px;
+	padding-left: 0;
+	text-align: center;
+}
+
+tbody td
+{
+	margin: 0;
+	padding: 10px;
+	padding-left: 0px;
+}
+
+form td{
+	text-align:						left;
+	background-color:			white;
+    border-color:               white;
+}
+
+.arrows{
+		font-size: 1.5em;
+		-moz-border-radius: 50%;
+		border-radius: 50px;
+		background-color: white;
+		text-decoration: none;
+}
+
+.arrows a{
+		text-decoration: none;
+		color: black;
+}
+
+.arrows:hover{
+	  background-color: white;
+}
+
+ .prompt {
+	text-align: 						right;
+	background-color:			white;
+}
+
+.buttons{
+	text-align:						center;
+	background-color:			white;
+}
+
+
+
+.linkbutton {
+	display:			    inline;
+	font-family:			arial, helvetica, sans-serif;
+	font-size:			small;
+}
+
+.linkbutton a{
+	text-decoration:  none;
+}
+
+.linkbutton a:link, .linkbutton a:visited, .linkbutton a:hover{
+	padding-right: 4px;
+	padding-left:	4px;
+	padding-top:	1px;
+	padding-top:   2px\9;
+	*padding-top:  2px;
+	padding-bottom: 1px;
+	padding-bottom: 2px\9;
+	*padding-bottom: 2px;
+	/*	margin-top: 2px;*/
+	background-color: silver;
+	color:						crimson;
+	border-top: 2px solid black;       /*lighter*/
+	border-right: 2px solid black;        /*darker*/
+	border-left: 2px solid black;       /*lighter*/
+	border-bottom: 2px solid black;    /*darker*/
+	/*border-style: outset; */
+}
+
+.linkbutton a:active{
+	padding-right: 4px;
+	padding-left:	4px;
+	padding-top:	1px;
+	padding-top:   2px\9;
+	*padding-top:  2px;
+	padding-bottom: 1px;
+	padding-bottom: 2px\9;
+	*padding-bottom: 2px;
+	/*margin-top: 2px;*/
+	background-color: crimson;
+	color:						silver;
+	border-top: 2px solid black;
+	border-right: 2px solid black;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	/*border-style: inset;  */
+}
+.centre{
+	text-align: center;
+}
+.disabled{
+	background-color:	white;
+}
